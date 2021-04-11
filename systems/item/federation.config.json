@@ -1,0 +1,10 @@
+{
+  "name": "item",
+  "port": 3001,
+  "remotes": {},
+  "exposes": {
+    "./Button": "./components/atoms/Button",
+    "./Text": "./components/test.tsx"
+  },
+  "shared": []
+}

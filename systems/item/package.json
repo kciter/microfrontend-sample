@@ -1,0 +1,28 @@
+{
+  "name": "@system/item",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "clean": "rimraf .next dist out node_modules",
+    "make-types": "node scripts/make-federated-types"
+  },
+  "resolutions": {
+    "webpack": "5.31.2",
+    "next": "10.1.3"
+  },
+  "dependencies": {
+    "@emotion/react": "11.1.5",
+    "@emotion/styled": "11.3.0",
+    "@module-federation/nextjs-mf": "0.0.2",
+    "next": "10.1.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "webpack": "5.31.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.15"
+  }
+}

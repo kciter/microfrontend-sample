@@ -1,0 +1,16 @@
+{
+  "npmClient": "yarn",
+  "npmClientArgs": [
+    "--frozen-lockfile"
+  ],
+  "useWorkspaces": true,
+  "ignoreChanges": [
+    "**/stories/**",
+    "**/*.stories.*"
+  ],
+  "packages": [
+    "packages/*",
+    "systems/*"
+  ],
+  "version": "0.0.0"
+}

@@ -1,0 +1,13 @@
+.idea/
+coverage/
+dist/
+yarn.lock
+yarn-error.log
+.DS_Store
+node_modules
+.next
+out
+.env
+.envrc
+*.log
+.vscode
